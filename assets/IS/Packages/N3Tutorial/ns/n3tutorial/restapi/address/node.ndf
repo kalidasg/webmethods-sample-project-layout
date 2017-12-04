@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">restResource</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">n3tutorial.restapi:address</value>
+  <value name="node_pkg">N3Tutorial</value>
+  <value name="node_comment"></value>
+  <value name="is_public">false</value>
+  <record name="restResource" javaclass="com.wm.util.Values">
+    <value name="resourceName">address</value>
+    <value name="nsName">n3tutorial.restapi:address</value>
+    <array name="operations" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="urlTemplate">address</value>
+        <value name="serviceName">n3tutorial.restapi:getAddress</value>
+        <array name="httpMethods" type="value" depth="1">
+          <value>GET</value>
+        </array>
+      </record>
+    </array>
+  </record>
+  <null name="originUri"/>
+  <Boolean name="modifiable">true</Boolean>
+</Values>
